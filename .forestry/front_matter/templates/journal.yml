@@ -1,5 +1,5 @@
 ---
-label: Journal
+label: Events
 hide_body: false
 fields:
 - type: text
