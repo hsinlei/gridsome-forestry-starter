@@ -34,5 +34,3 @@ fields:
     required: true
   label: Registration Link
   description: Register on Eventbrite
-pages:
-- journal/macos-development-environment.md
