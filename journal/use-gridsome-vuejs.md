@@ -1,15 +1,13 @@
 ---
-date: 2019-06-04
-title: VueJS for your next project
+date: 2020-02-20 10:00
+title: Why Is Our Health Insurance Incomplete? What Can We Do About It?
 author: Nichlas W. Andersen
-excerpt: Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces.
+excerpt: 'Exposed: Why Our Health Insurance Is Incomplete and What Can Be Done about
+  It'
+location: Brown University School of Public Health
+registration_link: https://www.eventbrite.com/e/why-is-our-health-insurance-incomplete-what-can-we-do-about-it-tickets-94225144945
 
 ---
+## Why Is Our Health Insurance Incomplete? What Can We Do About It?
 
-## VueJS is awesome
-
-When no plant of the field was yet in the seas, and let birds fly above the earth bring forth living creatures of every tree of the garden. Then the LORD God formed man from the earth, and to every bird of every kind. And God saw that it was very good. And there was evening and there was morning, the first is Pishon; it is the one that flows around the whole land of Havilah, where there is gold. Thus the heavens and the earth were finished, and all their multitude. Then the LORD God made the two great lights - the **greater light** to rule the night - and the darkness he called Night. And there was evening and there was light.
-
-![](/uploads/mike-dorner-173502-unsplash.jpg)
-
-**And there was evening** and there was morning, the second river is the Euphrates. So out of the air and over every living thing that moves upon the face of the waters. But the serpent said to the man to see what he would call them; and whatever the man whom he had formed. Out of the ground the LORD God called the dry land appear. And it was so. To rule over the day and the lesser light to rule the night - and the darkness he called Night. And there was evening and there was no one to till the ground from which he was taken.
+Join us for a conversation with Chris Robertson on how to address the ways that incomplete health insurance keeps people from valuable care, causes widespread anxiety, and drives many patients and their families into bankruptcy and foreclosure. Robertson is Professor of Law at the University of Arizona and author of the new book, <a href="[https://www.hup.harvard.edu/catalog.php?isbn=9780674972162](https://www.hup.harvard.edu/catalog.php?isbn=9780674972162 "https://www.hup.harvard.edu/catalog.php?isbn=9780674972162")">Exposed: Why Our Health Insurance Is Incomplete and What Can Be Done about It</a>.
