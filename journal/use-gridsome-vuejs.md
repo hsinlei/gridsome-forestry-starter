@@ -1,5 +1,5 @@
 ---
-date: 2020-02-20 10:00
+date: 2020-02-20 7:00
 title: Why Is Our Health Insurance Incomplete? What Can We Do About It?
 author: Nichlas W. Andersen
 excerpt: 'Exposed: Why Our Health Insurance Is Incomplete and What Can Be Done about
