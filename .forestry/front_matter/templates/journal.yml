@@ -20,20 +20,19 @@ fields:
     required: true
     display_utc: true
     date_format: YYYY-MM-DD
-    time_format: ''
-    export_format: YYYY-MM-DD
+    time_format: h:mm
+    export_format: YYYY-MM-DD h:mm
   default: now
-- type: select
-  name: author
+- name: location
+  type: text
   config:
-    source:
-      type: simple
-      section: authors
-      file: data/authors/nichlas-w-andersen.json
     required: true
-    options:
-    - Nichlas W. Andersen
-  label: Author
-  default: Nichlas W. Andersen
+  label: Location
+- name: registration_link
+  type: text
+  config:
+    required: true
+  label: Registration Link
+  description: Register on Eventbrite
 pages:
 - journal/macos-development-environment.md
