@@ -2,8 +2,8 @@
   <Layout>
 
     <div class="container">
-      <div class="journal-hero">
-        <h1 class="journal-header">
+      <div class="event-hero">
+        <h1 class="event-header">
           a wise person once said...
         </h1>
       </div>
@@ -13,11 +13,11 @@
       :to="item.node.path"
       v-for="item in $page.posts.edges" 
       :key="item.node.id"
-      class="journal-post"
+      class="event-post"
     >
-      <div class="container journal">
-        <h2 class="journal-title">{{ item.node.title }}</h2>
-        <p class="journal-excerpt">{{ item.node.excerpt }}</p>
+      <div class="container event">
+        <h2 class="event-title">{{ item.node.title }}</h2>
+        <p class="event-excerpt">{{ item.node.excerpt }}</p>
       </div>
     </g-link>
       
@@ -25,8 +25,8 @@
 </template>
 
 <page-query>
-query Journal {
-	posts: allJournalPost {
+query event {
+	posts: alleventPost {
     edges {
       node {
         id
@@ -45,56 +45,56 @@ export default {
 </script>
 
 <style scoped>
-.container.journal {
+.container.event {
   max-width: 720px;
 }
-.journal-hero {
+.event-hero {
   padding: 4rem 0;
   text-align: center;
   color: var(--color-base-1);
 }
-.journal-header {
+.event-header {
   font-size: 3rem;
   font-weight: 700;
   padding: 0;
   margin: 0;
 }
-.journal-post {
+.event-post {
   display: block;
   padding: 2rem 0;
   text-decoration: none;
   transition: background 0.5s ease;
 }
-.journal-post > * {
+.event-post > * {
   transition: transform 0.5s ease;
 }
-.journal-post:hover {
+.event-post:hover {
   background-color: var(--color-base-1);
 }
-.journal-post:hover > * {
+.event-post:hover > * {
   transform: translateX(4rem);
 }
-.journal-post h1,
-.journal-post h2 {
+.event-post h1,
+.event-post h2 {
   margin: 0;
   padding: 0;
 }
-.journal-title {
+.event-title {
   font-size: 2rem;
   color: var(--color-contrast);
 }
-.journal-excerpt {
+.event-excerpt {
   color: var(--color-contrast-1);
 }
 
 @media (min-width: 560px) {
-  .journal-post {
+  .event-post {
     padding: 3rem 0;
   }
 }
 
 @media (min-width: 860px) {
-  .journal-post {
+  .event-post {
     padding: 5rem 0;
   }
 }

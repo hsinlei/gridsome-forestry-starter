@@ -1,27 +1,27 @@
 <template>
   <Layout>
-    <div class="journal">
-      <div class="container journal-container">
+    <div class="event">
+      <div class="container event-container">
 
-        <div class="journal-header">
-          <h1 v-html="$page.post.title" class="journal-title" />
-          <div class="journal-meta">
-            <div class="journal-author">
+        <div class="event-header">
+          <h1 v-html="$page.post.title" class="event-title" />
+          <div class="event-meta">
+            <div class="event-author">
               <span class="label">Author</span>
               <span class="author-name" v-text="$page.post.author" />
             </div>
-            <div class="journal-date">
+            <div class="event-date">
               <span class="label">Date</span>
               <div v-text="$page.post.date"/>
             </div>
-            <div class="journal-time">
+            <div class="event-time">
               <span class="label">Time</span>
               <span>{{ $page.post.timeToRead }} min read</span>
             </div>
           </div>          
         </div>
 
-        <JournalContent :content="$page.post.content" />
+        <eventContent :content="$page.post.content" />
 
       </div>
     </div>
@@ -29,8 +29,8 @@
 </template>
 
 <page-query>
-query JournalPost ($path: String!) {
-  post: journalPost (path: $path) {
+query eventPost ($path: String!) {
+  post: eventPost (path: $path) {
     title
     author
     date (format: "D. MMMM YYYY")
@@ -41,11 +41,11 @@ query JournalPost ($path: String!) {
 </page-query>
 
 <script>
-import JournalContent from "@/components/JournalContent"
+import eventContent from "@/components/eventContent"
 
 export default {
   components: {
-    JournalContent
+    eventContent
   },
   metaInfo () {
     return {
@@ -56,26 +56,26 @@ export default {
 </script>
 
 <style scoped>
-.journal-container {
+.event-container {
   max-width: 840px;
 }
-.journal-header {
+.event-header {
   padding: 2rem 0 4rem 0;
 }
-.journal-title {
+.event-title {
   font-size: 4rem;
   margin: 0 0 4rem 0;
   padding: 0;
 }
-.journal-meta {
+.event-meta {
   display: flex;
   flex-wrap: wrap;
   font-size: 0.8rem;
 }
-.journal-meta > div {
+.event-meta > div {
   margin-right: 4rem;
 }
-.journal-meta > div:last-of-type {
+.event-meta > div:last-of-type {
   margin: 0;
 }
 </style>

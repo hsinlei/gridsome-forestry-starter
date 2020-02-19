@@ -1,6 +1,6 @@
 <template>
     <div 
-        class="journal-content"
+        class="event-content"
         v-html="content"
     />
 </template>

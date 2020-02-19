@@ -17,7 +17,7 @@ sections:
   create: documents
   match: "**/*.md"
   templates:
-  - journal
+  - event
 - type: document
   path: data/theme.json
   label: Theme config
